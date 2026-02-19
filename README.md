@@ -1,16 +1,52 @@
-# React + Vite
+💻 SPJ Portfolio | Modern Web Developer
+A high-performance, animated, and fully responsive portfolio website built with React and Tailwind CSS v4. This project showcases my journey as a Computer Science student at VIT Chennai, featuring a terminal-inspired aesthetic and smooth motion design.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+Modern UI/UX: Terminal-inspired dark theme with a sleek purple accent (#C778DD).
 
-Currently, two official plugins are available:
+Smooth Animations: Leverages Framer Motion for staggered entrance animations, floating elements, and scroll-linked reveals.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Fully Responsive: Optimised for all screen sizes, from mobile devices to ultra-wide monitors.
 
-## React Compiler
+Dynamic Project Showcasing: Interactive cards for projects like WatchWise and NeuroSanus.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Optimized Performance: Built using Vite for lightning-fast load times and a seamless user experience.
 
-## Expanding the ESLint configuration
+🛠️ Tech Stack
+Frontend: React.js
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Styling: Tailwind CSS v4
+
+Animations: Framer Motion
+
+Icons: Lucide React
+
+Deployment: Vercel / GitHub Pages
+
+📂 Project Structure
+Plaintext
+my-portfolio/
+├── src/
+│   ├── assets/       # Images and icons
+│   ├── components/   # Reusable UI components
+│   ├── App.jsx       # Main application logic and layout
+│   └── index.css     # Global styles and Tailwind imports
+├── public/           # Static assets
+└── tailwind.config.js # Custom theme configurations
+⚙️ Installation & Setup
+Clone the repository:
+
+Bash
+git clone https://github.com/brovoski69/my-portfolio.git
+Install dependencies:
+
+Bash
+npm install
+Run the development server:
+
+Bash
+npm run dev
+Build for production:
+
+Bash
+npm run build
