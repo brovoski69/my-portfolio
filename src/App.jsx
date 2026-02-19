@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Github, Linkedin, Menu, X, ArrowRight, Mail, Monitor, Server, Terminal as TerminalIcon, Wrench, Heart } from 'lucide-react';
+import { Analytics } from "@vercel/analytics/next";
 
 const App = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
