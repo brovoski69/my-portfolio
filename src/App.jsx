@@ -492,6 +492,7 @@ const App = () => {
 
         </div>
       </footer>
+      <Analytics />
     </div> /* <-- Main Container Closes Here */
   );
 };
